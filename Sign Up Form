@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+ 
+    
+        <title>Create a form</title>
+        <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      </>
+      
+<body>
+<header>
+    <h1>Job application form</h1>
+    <h2><strong>It is important for you to fill the below details to ensure your qualification for the post required.</strong></h2>
+</header>
+<br>
+<div>
+ <form type="post-form">
+    <label for="name" class="name">First Name</label><input type="name" class="txtbox" placeholder="Enter your first name">
+    <label for="name" class="name">Middle Name</label><input type="name" class="txtbox" placeholder="Enter your middle name">
+    
+    <label for="name" class="name">Last Name</label><input type="name" class="txtbox"  placeholder="Enter your last name">
+    <label for="email" class="name">Email Address</label><input type="name" class="txtbox" placeholder="Enter your email address">
+    
+    <label for="age" class="name">Age</label><input type="name" class="txtbox"  placeholder="Enter your age">
+    <label for="phone-number" class="name">Phone Number</label>
+   <input type="name" class="txtbox"  placeholder="Enter your phone-number">
+</div>
+
+<div>
+<p>Have you gotten a job before?</p>
+<label><input type="radio" name="yes-no-maybe">Yes</label>
+<label><input type="radio" name="yes-no-maybe">No</label>
+<label><input type="radio" name="yes-no-maybe">Maybe</label>
+</div>
+
+<div>
+<p>If (Yes) Is your work qualification up to 2 years?</p>
+<label><input type="checkbox" name="yes-no">Yes</label>
+<label><input type="checkbox" name="yes-no">No</label>
+</div>
+  
+  <div>
+<p>How did you hear about us? Through:</p>
+<label><input type="radio" name="facebook-twitter-linkedin-others">Facebook</label>
+<label><input type="radio" name="facebook-twitter-linkedin-others">Twitter</label>
+<label><input type="radio" name="facebook-twitter-linkedin-others"">LinkedIn</label>
+<label><input type="radio" name="facebook-twitter-linkedin-others"">Others</label>
+</div>
+  
+  <div>
+<p>Expected salary budget</p>
+<label><input type="radio" name="salarybudget">Less than ₦30k</label>
+<label><input type="radio" name="salarybudget">₦30k - ₦50k</label>
+<label><input type="radio" name="salarybudget">₦50k - ₦70k</label>
+<label><input type="radio" name="salarybudget">₦70k - ₦100k</label>
+</div>
+  
+<div>
+      <p>Can you please tell us more about yourself.(Compulsory)</p>
+          <textarea>Tell us more about yourself...</textarea>
+      </div>  
+  
+<div>
+<button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+      </div>
+
+<div>
+<label><input type="checkbox"><p>I have hereby agreed & read the terms and conditions and therefore I have agreed to submit the form application.</p></label>
+</div>
+
+<section>
+<footer> &copy 2021. Created by Royhanoh Abdul-hakeem</footer>
+</section>
+
+</body>
+</html>
